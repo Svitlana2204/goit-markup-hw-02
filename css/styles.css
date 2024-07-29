@@ -12,6 +12,8 @@ a {
   text-decoration: none;
 }
 
+
+/*--#region heder--> */
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -55,6 +57,36 @@ a {
 .contacts-link:focus {
   color: #404bbf;
 }
+/*--#andregion heder--> */
+
+/*--#region hero--> */
+
+.hero{ 
+    background-color:#2e2f42
+}
+.hero-title{
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #fff;
+}
+.hero-btn{
+    background-color: #4D5AE5 ;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+}
+.hero-btn:hover,
+.hero-btn:focus{
+    background-color: #404BBF
+}
+
+/*--#andregion hero--> */
+
 
 .page-footer {
   background-color: #2e2f42;

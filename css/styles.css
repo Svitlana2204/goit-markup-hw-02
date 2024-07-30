@@ -12,7 +12,6 @@ a {
   text-decoration: none;
 }
 
-
 /*--#region heder--> */
 .logo {
   font-family: "Raleway", sans-serif;
@@ -61,45 +60,81 @@ a {
 
 /*--#region hero--> */
 
-.hero{ 
-    background-color:#2e2f42
+.hero {
+  background-color: #2e2f42;
 }
-.hero-title{
-    font-size: 56px;
-    line-height: 1.07;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: #fff;
+.hero-title {
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #fff;
 }
-.hero-btn{
-    background-color: #4D5AE5 ;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    text-align: center;
-    color: #fff;
-    cursor: pointer;
+.hero-btn {
+  background-color: #4d5ae5;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
 }
 .hero-btn:hover,
-.hero-btn:focus{
-    background-color: #404BBF
+.hero-btn:focus {
+  background-color: #404bbf;
 }
 
 /*--#andregion hero--> */
-.hiro-title{
-font-weight: 500;
-font-size: 20px;
-line-height: 1.2;
-letter-spacing: 0.02em;
-color: #2e2f42;
+
+.hiro-title {
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+  text-transform: capitalize;
 }
 
-.hiro-subtitle{
-    font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
+.hiro-subtitle {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
+
+.page-icon {
+  background-color: #f4f4fd;
+}
+
+.list {
+  background-color: #f4f4fd;
+}
+
+.hero-item {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
+
+.hero-item-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+
+
 
 .page-footer {
   background-color: #2e2f42;
+}
+.page-footer-subtitle {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
 }
